@@ -16,11 +16,13 @@ namespace OrderingSystem.Data
         public DbSet<Account> Accounts { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Skill> Skills { get; set; }
+        public DbSet<Settings> Settings { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new OrderConfiguration());
             modelBuilder.Configurations.Add(new UserConfiguration());
+            modelBuilder.Configurations.Add(new SettingsConfiguration());
         }
     }
 }
