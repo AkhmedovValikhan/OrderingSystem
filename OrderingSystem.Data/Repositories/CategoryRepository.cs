@@ -14,5 +14,10 @@ namespace OrderingSystem.Data.Repositories
     }
     public class CategoryRepository : RepositoryBase<Category>
     {
+        public CategoryRepository(IContextFactory factory)
+                :base(factory)
+            {
+                 
+            }
     }
 }

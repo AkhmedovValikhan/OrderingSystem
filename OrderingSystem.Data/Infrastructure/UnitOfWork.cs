@@ -9,9 +9,9 @@ namespace OrderingSystem.Data.Infrastructure
     public class UnitOfWork : IUnitOfWork
     {
         private readonly OrderingSystemEntities _context;
-        public UnitOfWork()
+        public UnitOfWork(IContextFactory factory)
         {
-            _context = new OrderingSystemEntities();
+            _context = factory.Init();
         }
         public void Commit()
         {

@@ -14,9 +14,13 @@ namespace OrderingSystem.Data.Repositories
     }
         public class OrderRepository : RepositoryBase<Order>, IOrderRepository
     {
-
+            public OrderRepository(IContextFactory factory)
+                :base(factory)
+            {
+                 
+            }
     }
 
  
 }
-}
+

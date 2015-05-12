@@ -11,9 +11,9 @@ namespace OrderingSystem.Data.Infrastructure
     {
         private readonly OrderingSystemEntities _context;
         private readonly IDbSet<T> _dbSet;
-        protected RepositoryBase()
+        protected RepositoryBase(IContextFactory factory)
         {
-            _context = new OrderingSystemEntities();
+            _context = factory.Init();
             _dbSet = _context.Set<T>();
         }
         public virtual void Add(T entity)

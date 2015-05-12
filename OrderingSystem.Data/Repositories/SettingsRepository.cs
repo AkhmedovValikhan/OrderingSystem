@@ -14,5 +14,10 @@ namespace OrderingSystem.Data.Repositories
     }
     public class SettingsRepository : RepositoryBase<Settings>
     {
+        public SettingsRepository(IContextFactory factory)
+                :base(factory)
+            {
+                 
+            }
     }
 }

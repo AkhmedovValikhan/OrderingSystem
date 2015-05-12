@@ -14,6 +14,11 @@ namespace OrderingSystem.Data.Repositories
     }
     public class SkillRepository : RepositoryBase<Skill>
     {
+        public SkillRepository(IContextFactory factory)
+                :base(factory)
+            {
+                 
+            }
     }
 
 }

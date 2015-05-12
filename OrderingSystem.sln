@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderingSystem.Tests", "Ord
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderingSystem.Web", "OrderingSystem.Web\OrderingSystem.Web.csproj", "{6EBCD74C-67A2-4D35-96B5-ACC4A15B1AB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderingSystem.Services.Tests", "OrderingSystem.Data.Tests\OrderingSystem.Services.Tests.csproj", "{34560D2D-A5E2-4EEA-8EE6-0DBB09E70211}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6EBCD74C-67A2-4D35-96B5-ACC4A15B1AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EBCD74C-67A2-4D35-96B5-ACC4A15B1AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EBCD74C-67A2-4D35-96B5-ACC4A15B1AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34560D2D-A5E2-4EEA-8EE6-0DBB09E70211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34560D2D-A5E2-4EEA-8EE6-0DBB09E70211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34560D2D-A5E2-4EEA-8EE6-0DBB09E70211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34560D2D-A5E2-4EEA-8EE6-0DBB09E70211}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

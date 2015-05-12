@@ -49,6 +49,7 @@
     <Compile Include="Configuration\OrderConfiguration.cs" />
     <Compile Include="Configuration\SettingsConfiguration.cs" />
     <Compile Include="Configuration\UserConfiguration.cs" />
+    <Compile Include="Infrastructure\IContextFactory.cs" />
     <Compile Include="Infrastructure\IRepository.cs" />
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />

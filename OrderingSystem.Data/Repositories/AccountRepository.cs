@@ -14,5 +14,10 @@ namespace OrderingSystem.Data.Repositories
     }
     public class AccountRepository : RepositoryBase<Account>
     {
+        public AccountRepository(IContextFactory factory)
+                :base(factory)
+            {
+                 
+            }
     }
 }
